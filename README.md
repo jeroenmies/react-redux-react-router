@@ -1,4 +1,4 @@
-# Starter Kit for [Building Applications in React and Redux](http://www.pluralsight.com/author/cory-house) on Pluralsight
+# Starter Kit for [Building Applications in React and Redux](http://www.pluralsight.com/author/cory-house) on Pluralsight - [Tutorial](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents)
 
 ## Get Started
 
