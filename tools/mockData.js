@@ -17,14 +17,14 @@ const courses = [
     id: 3,
     title: "Creating Reusable React Components",
     slug: "react-creating-reusable-components",
-    authorId: 1,
+    authorId: 2,
     category: "JavaScript"
   },
   {
     id: 4,
     title: "Building a JavaScript Development Environment",
     slug: "javascript-development-environment",
-    authorId: 1,
+    authorId: 3,
     category: "JavaScript"
   },
   {
