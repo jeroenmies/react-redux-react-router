@@ -8,15 +8,15 @@ import {newCourse} from '../../../tools/mockData';
 import Spinner from '../common/Spinner';
 import {toast} from 'react-toastify';
 
-function ManageCoursePage({
-                              authors,
-                              courses,
-                              loadAuthors,
-                              loadCourses,
-                              saveCourse,
-                              history,
-                              ...props
-                          }) {
+export function ManageCoursePage({
+                                     authors,
+                                     courses,
+                                     loadAuthors,
+                                     loadCourses,
+                                     saveCourse,
+                                     history,
+                                     ...props
+                                 }) {
     const [course, setCourse] = useState({...props.course});
     const [errors, setErrors] = useState({});
     const [saving, setSaving] = useState(false);
@@ -46,12 +46,12 @@ function ManageCoursePage({
     }
 
     function formIsValid() {
-        const { title, authorId, category } = course;
+        const {title, authorId, category} = course;
         const errors = {};
 
-        if (!title) errors.title = "Title is required.";
-        if (!authorId) errors.author = "Author is required";
-        if (!category) errors.category = "Category is required";
+        if (!title) errors.title = 'Title is required.';
+        if (!authorId) errors.author = 'Author is required';
+        if (!category) errors.category = 'Category is required';
 
         setErrors(errors);
         // Form is valid if the errors object still has no properties
